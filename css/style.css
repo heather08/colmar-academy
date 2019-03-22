@@ -150,3 +150,59 @@ header nav span {
   width: 100%;
   height: auto;
 }
+
+/* course section */
+
+.courses {
+  flex-direction: column;
+  padding: 2rem 4.5rem;
+}
+
+.courses h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.course-grid {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.course-block {
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  margin-bottom: 1rem;
+  width: 30%;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+}
+
+.course-image img {
+  width: 100%;
+  height: auto;
+}
+
+.course-block h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.course-block h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.course-block p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
