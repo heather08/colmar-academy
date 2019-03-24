@@ -350,7 +350,7 @@ button a {
     width: 100%;
     padding: 1rem;
   }
-  .course-block h4, .course-block p {
+  .course-block h4, .course-block p, .info-main p {
     display: none;
   }
 }
