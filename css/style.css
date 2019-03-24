@@ -18,6 +18,10 @@ html {
 header {
   align-items: center;
   height: 4rem;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -51,6 +55,7 @@ header nav a {
 
 .banner {
   padding: 2rem 1.5rem;
+  padding-top: 6rem;
 }
 
 .image {
@@ -104,6 +109,7 @@ header nav a {
   font-size: 2rem;
   font-weight: bold;
   margin: 2rem;
+  margin-bottom: 0;
   text-align: center;
 }
 
@@ -143,7 +149,7 @@ header nav a {
 .info-sub {
   width: 40%;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .info-block {
