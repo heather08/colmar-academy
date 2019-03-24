@@ -86,13 +86,13 @@ header nav a {
   line-height: 1.4;
 }
 
-.button {
+button {
   background-color: gray;
   text-align: center;
   padding: .5rem;
 }
 
-.button a {
+button a {
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
@@ -172,6 +172,11 @@ header nav a {
 .info-heading p {
   margin-bottom: .5rem;
   line-height: 1.4;
+}
+
+.info-heading a {
+  text-decoration: none;
+  color: black;
 }
 
 .info-image {
