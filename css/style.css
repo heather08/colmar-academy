@@ -328,7 +328,8 @@ button a {
 
 .course-block:hover {
   opacity: 1;
-  color: #AA8D53
+  color: #AA8D53;
+  transition-duration: 500ms;
 }
 
 .course-block a {
