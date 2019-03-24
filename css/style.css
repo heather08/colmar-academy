@@ -11,7 +11,7 @@ html {
 }
 
 .color {
-  background-color: #4C7B7B;
+  background-color: #345656;
 }
 
 h1, h2, h3, h4, a {
@@ -57,7 +57,7 @@ header {
 
 .logo h1 {
   font-size: 2rem;
-  color: #4C7B7B
+  color: #4C7B7B;
 }
 
 #colmar {
@@ -119,12 +119,14 @@ header nav a:hover {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
+  color: #FFFFFF;
 }
 
 .headline h4{
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   line-height: 1.4;
+  color: #FFFFFF;
 }
 
 button {
@@ -221,6 +223,10 @@ button a {
   flex-direction: row;
 }
 
+.info-heading.color {
+  color: #FFFFFF;
+}
+
 .info-heading {
   flex-direction: column;
   width: 65%;
@@ -231,7 +237,7 @@ button a {
 .info-heading h3 {
   margin-bottom: .5rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .info-heading p {
@@ -242,6 +248,11 @@ button a {
 .info-heading a {
   text-decoration: none;
   color: 	#000000;
+}
+
+.info-heading.color a {
+  text-decoration: none;
+  color: 	#FFFFFF;
 }
 
 .info-heading a:hover {
@@ -297,6 +308,7 @@ button a {
   font-weight: bold;
   margin-bottom: 2rem;
   text-align: center;
+  color: #FFFFFF;
 }
 
 .course-grid {
