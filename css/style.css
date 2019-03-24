@@ -322,7 +322,7 @@ button a {
   color: black;
   margin-bottom: 1rem;
   width: 30%;
-  opacity: .75;
+  opacity: .9;
   transition-property: opacity, color;
 }
 
