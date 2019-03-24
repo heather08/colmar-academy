@@ -22,6 +22,18 @@ p, span {
   font-family: Mukta, sans-serif;
 }
 
+@media only screen and (min-width: 801px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+}
+
 /* header section */
 
 header {
@@ -68,6 +80,17 @@ header nav a:hover {
   transition: 100ms linear;
 }
 
+@media only screen and (max-width: 800px) {
+  .mobile-header {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fa {
+    color: #000000;
+  }
+}
+
 /* banner section */
 
 .banner {
@@ -84,6 +107,7 @@ header nav a:hover {
 .image img {
   width: 100%;
 }
+
 .headline {
   flex-direction: column;
   justify-content: center;
@@ -118,6 +142,25 @@ button a {
   color: #E0E0E0;
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
+    padding: 2rem 0;
+    padding-top: 4rem;
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .headline {
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .headline h1 {
+    margin-bottom: 2rem;
+  }
 }
 
 /* info and exhibit section */
@@ -198,7 +241,7 @@ button a {
 
 .info-heading a {
   text-decoration: none;
-  color: black;
+  color: 	#000000;
 }
 
 .info-heading a:hover {
@@ -214,6 +257,32 @@ button a {
 .info-image img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .info-sub {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .info-block {
+    padding-bottom: 2rem;
+    flex-direction: column;
+  }
+  .info-image {
+    width: 90%;
+  }
+  .info-heading {
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .info-main {
+    width: 100%;
+    margin: auto;
+  }
+  .info-main video {
+    margin-top: 1rem;
+  }
 }
 
 /* course section */
@@ -273,6 +342,19 @@ button a {
   line-height: 1.4;
 }
 
+@media only screen and (max-width: 800px) {
+  .courses {
+    padding: 1rem 2rem;
+  }
+  .course-block {
+    width: 100%;
+    padding: 1rem;
+  }
+  .course-block h4, .course-block p {
+    display: none;
+  }
+}
+
 /* footer section */
 
 footer {
@@ -289,4 +371,12 @@ footer nav a {
   padding-left: 1rem;
   color: inherit;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    font-size: .75rem;
+    border: none;
+    background-color: #E0E0E0;
+  }
 }
