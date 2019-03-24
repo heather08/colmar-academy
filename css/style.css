@@ -38,11 +38,13 @@ header {
 }
 
 header nav {
-  padding-right: 2rem;
+  padding-right: 1.5rem;
 }
 
-header nav span {
-  padding-left: .5rem;
+header nav a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: black;
 }
 
 /* banner section */
@@ -54,7 +56,7 @@ header nav span {
 .image {
   width: 60%;
   height: auto;
-  margin-right: 2.5rem;
+  margin-right: 1.5rem;
 }
 
 .image img {
@@ -76,21 +78,34 @@ header nav span {
 .headline h4{
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+  line-height: 1.4;
 }
 
 .button {
   background-color: gray;
   text-align: center;
-  padding: 1rem;
+  padding: .5rem;
 }
 
 .button a {
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
-/* info section */
+/* info and exhibit section */
+
+.heading {
+  width: 100%;
+  justify-content: center;
+}
+
+.heading h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem;
+  text-align: center;
+}
 
 .info-main {
   width: 60%;
@@ -103,15 +118,26 @@ header nav span {
   margin-bottom: 2rem;
 }
 
+.info-main video {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
 .info-main h2 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
 
+#video-title {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
 .info-main p {
   font-size: 1rem;
   margin-bottom: 2rem;
+  line-height: 1.4;
 }
 
 .info-sub {
@@ -139,6 +165,7 @@ header nav span {
 
 .info-heading p {
   margin-bottom: .5rem;
+  line-height: 1.4;
 }
 
 .info-image {
@@ -191,13 +218,13 @@ header nav span {
 .course-block h3 {
   margin-top: 1rem;
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   margin-left: 1rem;
 }
 
 .course-block h4 {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   margin-left: 1rem;
 }
 
@@ -205,4 +232,22 @@ header nav span {
   font-size: 1rem;
   margin-bottom: 1.5rem;
   margin-left: 1rem;
+  line-height: 1.4;
+}
+
+/* footer section */
+
+footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid black;
+}
+
+footer span {
+  flex-grow: 2;
+}
+
+footer nav a {
+  padding-left: 1rem;
+  color: inherit;
+  text-decoration: none;
 }
